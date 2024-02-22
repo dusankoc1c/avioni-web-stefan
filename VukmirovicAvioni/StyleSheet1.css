@@ -1,0 +1,230 @@
+﻿*{
+    margin:0px;
+}
+body {
+    background-color: #1a0d00;
+    font-family: Arial;
+    color: white;
+}
+#container {
+    background-image: url('183261.jpg');
+}
+#containerL {
+    background-image: url('airplane-photoshop-pier-sunset-5k.jpg');
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+#containerI {
+    background-image: url('485547_aircraft-f-4-phantom-ii-sunset-military-aircraft-wallpapers-hd_2048x1343_h.jpg');
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+h3 {
+    padding-top: 22px;
+    padding-left: 10px;
+    text-shadow: 2px 2px 4px #000000;
+}
+#navbar {
+    width: 100%;
+    height: 75px;
+    background-color: #cf8157;
+    border-radius: 5px;
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+}
+
+.naslov {
+    float: right;
+    width: 200px;
+    height: 65px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.menuItem {
+    padding-top: 10px;
+    font-size: 19px;
+    width: 180px;
+    height: 65px;
+    float: left;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    line-height: 55px;
+    color: white;
+    border-radius: 25px;
+}
+    .menuItem:hover {
+        background-color: #1a0d00;
+        -webkit-transition: background-color 1000ms linear;
+        -ms-transition: background-color 1000ms linear;
+        transition: background-color 1000ms linear;
+    }
+#contentContainer {
+    padding-top: 48px;
+/*    background-color: black;*/
+    align-content:center;
+}
+#content {
+/*    background-color:white;*/
+    margin-left:350px;
+    margin-top:100px;
+    width: 640px;
+    height: 600px;
+    align-content:center;
+    text-align:center;
+}
+h2 {
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+#hh {
+    font-size: 80px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+p {
+    font-size: 35px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/*DRUGI DEO*/
+#container1 {
+    background-color: #1a0d00;
+}
+
+#contentContainer1 {
+    padding-top: 48px;
+    /*    background-color: black;*/
+    align-content: center;
+}
+
+#content1 {
+    margin-left: 75px;
+    margin-top: 140px;
+    width: 1240px;
+    height: 500px;
+    align-items: center;
+    text-align: center;
+}
+#naslov1 {
+    padding-top:30px;
+    margin-bottom:60px;
+    padding-left: 15px;
+    float: left;
+    width: 1000px;
+    height: 65px;
+    text-shadow: 2px 2px 4px #000000;
+}
+#tekst1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    font-size: 20px;
+    width: 500px;
+}
+#picture {
+    margin-top:15px;
+    margin-right:15px;
+    height:360px;
+    float: right;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*LET.HTML*/
+
+#tekst11 {
+    display: grid;
+    align-items: center;
+    float: right;
+    font-size: 20px;
+    width: 500px;
+}
+
+#picture1 {
+    margin-top: 15px;
+    margin-right: 15px;
+    height: 360px;
+    float: left;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*ISTORIJA ZASEBNI TEKST*/
+
+#tekstA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-top:110px;
+    font-size: 20px;
+    width: 500px;
+}
+#tekstB {
+    margin-top:110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    font-size: 20px;
+    width: 500px;
+}
+/*TRECI DEO*/
+#container2 {
+
+    height:800px;
+    margin:auto;
+}
+
+#contentContainer2 {
+    padding-top: 48px;
+    align-content: center;
+    text-align:center;
+}
+#naslov2 {
+    padding-top: 15px;
+    margin-left:200px;
+    width: 900px;
+    height: 65px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#content2 {
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 60px;
+    width: 740px;
+    height: 530px;
+    align-content: center;
+    text-align: center;
+}
+
+img {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.deo2 {
+    background-color: white;
+    height: 480px;
+}
+.deo3 {
+    background-color: #1a0d00;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 50px;
+}
+.thumbnail {
+    width: 74px;
+    height: 50px;
+    float: left;
+    padding: 2px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
